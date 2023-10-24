@@ -4,7 +4,7 @@ The client of an app that creates a virtual auction space where connected users 
 
 ## Setup
 ### Deployed Version
-If you don't want to set up the client manually, the deployed version can be accessed [here](https://auctionhouseclient.netlify.app/).
+If you don't want to set up the client manually, the deployed web version can be accessed [here](https://auctionhouseclient.netlify.app/).
 
 ### Manual Setup
 - Setup the [server](https://github.com/allengustrowsky/BiddingHouseServer) first.
