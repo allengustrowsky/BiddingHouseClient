@@ -5,7 +5,7 @@ The client of an app that creates a virtual auction space where connected users 
 ## Setup
 - Setup the [server](https://github.com/allengustrowsky/BiddingHouseServer) first.
 - Install dependencies (e.g., `yarn`)
-- Start the server: `yarn dev`
+- Start the server: `yarn start`
 
 ## Usage Notes
 - On the initial screen, `IP` and `Port` are the IP and Port of the server.  The Port can be easily configured in the server code.
