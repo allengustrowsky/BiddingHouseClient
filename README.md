@@ -1,6 +1,6 @@
 # Auction House - Client
 
-The client version of an app that creates a virtual auction space where connected users can create auctions and bid/purchase items from other users.  The server can be found [here](https://github.com/allengustrowsky/BiddingHouseServer).
+The client of an app that creates a virtual auction space where connected users can create auctions and bid/purchase items from other users.  The server can be found [here](https://github.com/allengustrowsky/BiddingHouseServer).
 
 ## Setup
 - Setup the [server](https://github.com/allengustrowsky/BiddingHouseServer) first.
