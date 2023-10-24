@@ -6,7 +6,7 @@ import BidInfo from "./BidInfo"
 
 const DisplayAuctionInfo = (props) => {
     const { auctionState, socket, apiKey } = props
-// TODO remove unused variables
+
     return (
         <div>
             <Typography variant="h5" component="p" sx={{ margin: "20px 0 10px", width: "320px" }}>{auctionState.auctionState === 1 ? "Pending" : "Live"} Auction:</Typography>

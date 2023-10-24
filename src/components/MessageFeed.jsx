@@ -2,7 +2,6 @@ import { Alert, Paper } from "@mui/material"
 
 const MessageFeed = (props) => {
     const { messages } = props
-    console.log("loaded")
 
     return (
         <div id="messages-container">

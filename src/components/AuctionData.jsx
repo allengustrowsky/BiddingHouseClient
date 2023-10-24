@@ -23,7 +23,6 @@ const AuctionData = (props) => {
     }, [auctionState])
 
     const disconnect = () => {
-        // socket.emit("teardown", apiKey)
         socket.disconnect()
         setLoggedIn(false)
         setSocket(null)
@@ -32,7 +31,6 @@ const AuctionData = (props) => {
     return (
         <Paper elevation={3} sx={{ width: "330px", maxHeight: "550px", overflow: "scroll" }}>
             <Typography variant="h4" component="p">{stateLabel}</Typography>
-            {/* <Typography>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur est dolores voluptatibus similique voluptates magni. Eligendi doloremque quo fuga cupiditate animi modi corrupti voluptatem tempora. Illo, id! Molestias, obcaecati reiciendis?</Typography> */}
             <List sx={{ width: "90%", margin: "0 auto"}}>
                 <ListItem>
                     <ListItemIcon>
