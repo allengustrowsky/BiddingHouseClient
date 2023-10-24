@@ -10,6 +10,10 @@ If you don't want to set up the client manually, the deployed web version can be
 - Setup the [server](https://github.com/allengustrowsky/BiddingHouseServer) first.
 - Install dependencies (e.g., `yarn`)
 - Start the server: `yarn start` or `npm run start`
+- To start the desktop app, run `electron .` in a new terminal
+
+## Configuration
+- The program runs by default on port 5180. This can be changed by modifying the port value in `vite.config.js` and `public/electron.cjs` files.
 
 ## Usage Notes
 - On the initial screen, `IP` and `Port` are the IP and Port of the server.  The Port can be easily configured in the server code.
