@@ -1,0 +1,78 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#primary-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 50px;
+}
+
+#summary-container {
+    height: 550px;
+    max-width: 370px;
+    overflow: scroll;
+}
+
+#item-form-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#name-and-price {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#display-auction-item-details {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 10px;
+}
+
+#admin-approval {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    width: 100px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#bid-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+    #primary-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #messages-container {
+        width: 550px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #messages-container {
+        width: 330px;
+    }
+}
